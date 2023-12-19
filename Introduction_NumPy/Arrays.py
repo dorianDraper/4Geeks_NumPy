@@ -35,3 +35,10 @@ print(array_zeros)
 print("array of ones")
 array_ones = np.ones((2, 3))
 print(array_ones)
+# Exercise 04: Create an array with 10 elements and change the values of the first 5 elements to 50
+print("Exercise 04: Create an array with 10 elements and change the values of the first 5 elements to 50")
+array_10 = np.arange(10)
+print(array_10)
+array_10[:5] = 50
+print(array_10)
+print('*****')
